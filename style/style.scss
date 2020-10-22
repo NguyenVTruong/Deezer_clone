@@ -11,3 +11,68 @@ body{
 h1, h2, h3, h4, h5, h6{
   font-family: Arial, Helvetica, sans-serif;
 }
+
+header{ 
+  
+
+  .nav{
+    background-color:#fff;
+    border-bottom: 2px solid #f0f0f0;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    padding: 20px 80px;
+    .nav-logo{
+      font-size: 18px;
+      display: inline;
+    }
+    div{
+      float: right;
+      .nav-menu, .btn{
+        font-size: 18px;
+        display: inline-block;
+        margin-right: 20px;
+        
+      }
+      .nav-menu{
+        height: 45px;
+      }
+
+      .btn{
+        border-radius: 50px;
+        padding: 3px 20px;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 800;
+      }
+      .btn-login{
+        background-color:#fff;
+        border: 2px solid #2D96C8;
+        color: #2D96C8;
+        
+      }
+      .btn-signup{
+        background-color: #2D96C8;
+        border: 3px solid #2D96C8;
+        color: #fff;
+      }
+      .nav-menu:hover{
+        border-bottom: 3px solid #2D96C8;
+        cursor: pointer;
+      }
+      .btn-login:hover{
+        border-color: #246583;
+      }
+      .btn-signup:hover{
+        background-color: #03608A;
+        border-color: #03608A;
+      }
+    }
+  }
+  .info-deezer{
+    position: relative;
+    top: 80px;
+  }
+}
